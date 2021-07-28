@@ -104,20 +104,7 @@ p{
     background-color: transparent ;
 
 }
-/* #header .nav-list ul{
-    list-style: none;
-    position: absolute;
-    background-color: rgb(31,30,30) ;
-    width: 100vw;
-    height: 100vh;
-    left: 0;
-    top: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
-    overflow-x: hidden ;
-} */
+
 
 #header .nav-list ul li {
     display: inline-block;

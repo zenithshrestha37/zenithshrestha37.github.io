@@ -1,0 +1,58 @@
+                                Zenith Shrestha
+                        Guidewire Business Analyst
+
+
+Professional Summary
+•	1+ years of experience in Business Analysis in various SDLC Methodologies. Experience in various domains like Guidewire Insurance Suite.
+•	Extensive understanding of Policy Center functionality and experience in elaborating New Policy Submissions, Policy Change, Policy Rewrite, Policy Cancellation and 
+        Policy Renewal related user stories.
+•	Hands on experience the Guidewire Policy Center 10.0, Billing Center 10.0, Claims Center 10.x  
+•	Highly skilled with the foremost NetSuite modules of ERP/Accounting and CRM/SFA and strong experience in NetSuite deployments for small and medium - sized business.
+•	Experience in various Software Development Life Cycles (SDLC) including Waterfall, Rational Unified Process (RUP), Agile (Scrum) methodology.
+•	Experience with creation of Business Requirement Documents (BRDs), Functional Specification Documents (FSDs), Use Case Documents (UCDs), Requirements Traceability Matrix,
+        User Acceptance Test (UAT) Plans.
+•	Expertise in Project Management i.e. Project Scoping, Planning, Estimating, Scheduling, Organizing, Directing, Controlling, Budgeting and Drafting Remedy Procedures to meet the Project deadlines.
+•	Extensive experience in gathering business and application requirements, business processes, identifying risks, impact analysis, UML modelling, Sequence and Activity
+        Diagrams using Rational Rose and Microsoft Visio.
+•	Expertise in elaborating Billing Center configuration user story such as Invoicing rules, Delinquencies, Policy.
+•	Exceptional documentation skills for writing HLRD, BRD, FRD, FSD, user cases, PCF, FLS, wireframes documents using requirement gathering tools as well as for creating 
+        Use Case diagrams, activity diagrams, using MS Visio and business process flow diagrams.   
+•	Strong knowledge of RDBMS Concepts and Data Warehouse Techniques - ETL process, data modeling, performance tuning - and Business Intelligence (BI) Concepts.  
+•	Experience with QA team in developing Test Scripts, Test Cases and Test Plan for User Acceptance testing.
+•	Developed Training Strategies, Training Manuals, Process flows and Job aides on Guidewire projects.  
+•	Experience in the Property, Casualty, Annuities, Disability, and Supplemental Insurance policies and having good command on SWIFT messaging and commercial 
+        Property and Casualty and Personal Lines Insurance experience with national carriers.  
+•	Experienced in Writing Documents Like Business Requirement Document, Functional Requirement Specification, Change Requests, Developed Use Case Diagrams, Activity Diagrams, And Business Flow Diagrams, Test Confirmation Criteria.
+•	Worked on Implementing the Guidewire Policy Center, Claim Center, Billing Center for Auto and Property Casualty Insurance.
+•	Extensive Experience in Creating Work Breakdown Structure, Use Cases, Process Workflows, Use Case Scenario and Use Case Narrative, Using the UML Methodologies for The Packaged, Legacy and Web Applications.
+•	Experienced in Facilitating Joint Requirement Planning Sessions with Business User Groups, Conducting Joint Application Development Sessions with It Groups and Conflict Management with Project Team Members.
+•	Experienced in Auto-General Liability Claims and Property Coverage Life, Property and Casualty Insurance Lines of Business.
+•	Strong Knowledge on Guidewire Configuration, Integration, Rating and Conversion & Guidewire Implementation for Property and Casualty Lines of Business.
+•	Extensive Understanding & Experience of Migrating Insurance Suite Solutions to Guidewire Solutions.
+•	Adapt in Performing Gap Analysis to Check the Compatibility of The Prevalent System Infrastructure with New Business Requirements.
+•	Hands on experience in SQL to extract, transform and loading data to the database using tools such as Guidewire Data hub.  
+•	Understanding of Software Development Lifecycle Including Requirements Analysis, Test Plan Development, Test Case Creation, Test Execution, Defect Tracking, And Test Reporting.
+•	Experience with Software Testing and Validation Documentation of All SDLC Phases.
+
+
+
+Experience
+Church Mutual Insurance Company, Guidewire Functional Analyst
+Merrill, WI
+October 2019- May 2020
+Responsibilities:
+
+•	Gathering requirements for the Guide Wire for Property and Liability Lines of Business
+•	Working as a Functional Analyst for GuideWire ClaimCenter Integration of claims systems with legacy systems
+•	Worked in the early stage of projects to establish plans, standards and procedures that will add value to the development effort and satisfy the constraints of the project.
+•	Analyzing software and business requirements documents to get a better understanding of the system from both technical and business perspectives.
+•	Mapped requirements to each business process flow/diagrams to provide a visual and clear understanding to the user of technical and functional requirements.
+•	Worked on various Integration stories between ClaimCenter  and third-party vendor components (IBM Content Manager, Eloquence, Unit4, TaxPort, PayPilot)
+•	Utilizing the guidelines and artifacts of the Rational Unified Process (RUP) to develop a detailed Implementation of Rational Unified Process effort for Guidewire Billing Center Integration in different iterations and phases of the Software Development Life Cycle (SDLC).
+•	Developed Data Flow Diagrams and Data mapping agreement, illustrating the flow of data from the front-end Guidewire Claim Center into the Application database Tables.
+•	Facilitated and led JAD sessions aimed at functional requirement walkthroughs for all the impacting projects and updated the documents based on recommendations (if any)
+•	Partnering with client business teams to understand business objectives and integration requirements using both business and technical skills.
+•	Conducted data analysis to draw conclusions from data collected 
+•	Assisted the Team in determining if and how new systems may improve process flow and business function. 
+•	Assisted with the development of test plans and strategies, coordinated testing events, and executed test cases in support of changes to business systems. 
+•	Maintained a requirements traceability matrix in order to keep the clients and all the teams up-to-date with the current progress of the project. 
