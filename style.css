@@ -242,10 +242,11 @@ p{
      flex-direction: column;
      padding: 30px;
      border-radius: 10px;
-     background-image: url(https://i1.wp.com/www.estidia.eu/wp-content/uploads/2018/04/Savin-NY-Website-Background-Web.jpg?resize=768%2C432);
+     background-image: url("https://images.unsplash.com/photo-1617202227468-7597afc7046d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHR1bHVtfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80");
      background-size: cover;
-     margin: 5px;
+     margin: 10px 5%;
      position: relative;
+     z-index: -1;
  }
 
  #services .service-item::after{
@@ -255,10 +256,11 @@ p{
      top:0;
      height: 100%;
      width:100%;
+     background-image: linear-gradient(60deg,#29323c 0%, #485563 100%);
      background-color: rgb(0, 0, 0);
      opacity: .4;
      z-index: -1;
- }
+    }
 
  #services .service-item h2{
      font-size: 2rem;
@@ -276,6 +278,7 @@ p{
     padding: 100px 0;
 
 }
+
 
 #projects .projects-header h1{
     margin-bottom: 50px;
@@ -297,6 +300,7 @@ p{
     width: 30%;
     margin: 20px auto;
     border-radius: 10px;
+
 }
 
 #projects .project-info {
@@ -312,6 +316,8 @@ flex-direction: column;
 #projects .project-info h1{
     font-size: 4rem;
     font-weight: 500;
+    margin-top: -50px;
+    padding: 10px;
 }
 
 #projects .project-info p{
