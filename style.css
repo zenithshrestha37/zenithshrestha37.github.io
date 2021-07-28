@@ -294,9 +294,8 @@ p{
     align-items: center;
     justify-content:  center;
     flex-direction: column;
-    width: 80%;
+    width: 30%;
     margin: 20px auto;
-    overflow: hidden;
     border-radius: 10px;
 }
 
@@ -319,10 +318,10 @@ flex-direction: column;
     color: black;   
 }
 
-#projects .project-img {
+#projects .project-image {
     flex-basis: 50%;
     height: 300px;
-    overflow: hidden;
+    
 
 }
 
