@@ -1,0 +1,465 @@
+@import url('https://fonts.googleapis.com/css2?family=Montaga&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    font-family: 'Montaga', serif;
+}
+a {
+    text-decoration: none;
+}
+
+.container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+p{
+    text-align : center;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+}
+
+/* About */
+#about .about {
+    flex-direction: column-reverese;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 20px;
+}
+
+#about.col-left {
+    width: 250px;
+    height: 360px;
+}
+#about .col-right{
+    width: 100%;
+}
+
+#about .col-right h2{
+    font-size: 1.8rem;
+    font-weight: 500;
+    letter-spacing: .2rem;
+    margin-bottom: 20px;
+}
+
+#about .col-right .cta{
+    color: black;
+    margin-bottom: 50px;
+}
+
+#about .col-left .about-img{
+    position: relative;
+}
+
+
+/*header*/
+#header{
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: auto;
+}
+
+#header .header{
+    min-height: 8vh;
+    background-color: rgba(31, 30, 30, 0.24);
+
+
+}
+
+#header .nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    max-width: 1300 px;
+    padding: 0 10px;
+
+}
+
+#header .nav-list ul{
+    position: initial;
+    display: block;
+    height: auto;
+    width: fit-content;
+    background-color: transparent ;
+
+}
+/* #header .nav-list ul{
+    list-style: none;
+    position: absolute;
+    background-color: rgb(31,30,30) ;
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    overflow-x: hidden ;
+} */
+
+#header .nav-list ul li {
+    display: inline-block;
+
+}
+
+#header .nav-list ul li a{
+    font-size: 1.8rem;
+}
+
+#header .nav-list ul a{
+    font-size: 1rem ;
+    font-weight: 500;
+    letter-spacing: .2rem;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 20px;
+    display: block;
+}
+
+
+
+
+
+/*MainSection */
+#main {
+    background-image: url(./images/img.png) ;
+    background-size: cover;
+    background-position: right;
+    position: relative;
+    z-index:1;
+}
+
+#main::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top:0;
+    height: 100%;
+    width: 100%;
+    background-color: black;    
+    opacity: .4;
+    z-index: -1;
+}
+#main .main{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 50px;
+    justify-content: left;
+}
+
+#main h1{
+    display: block;
+    width: fit-content;
+    font-size: 4rem;
+    position: relative;
+    color: red;
+    animation: text-animation 2s ease forwards;
+    animation-delay: 1.5s;
+}
+
+#main h1 span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background-color: crimson;
+    animation: animation_box 1s ease;
+    animation-delay: 1s;
+
+}
+
+.cta{
+    display: inline-block;
+    padding: 10px 30px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid crimson;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 30px;
+    transition: .3s ease;
+    transition-property: background-color, color;
+}
+
+.cta:hover{
+    color: white;
+    background-color: crimson;
+}
+ /* service section */
+
+ #services{}
+ #services .services{
+     flex-direction: column;
+     text-align: center;
+     max-width: 1500 px;
+     margin: 0 auto;
+     padding: 100px;
+
+ }
+
+ .section-title{
+     font-size: 4rem;
+     font-weight: 300;
+     color: black;
+     margin-bottom: 10px;
+     text-transform: uppercase;
+     letter-spacing: .2rem;
+ }
+
+ #services .service-top p{
+     font-size: 2rem;
+     margin-top: 5px;
+     line-height: 2,5rem;
+     font-weight: 300;
+     letter-spacing: .05rem;
+ }
+
+ #services .service-bottom {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-wrap: wrap;
+ }
+
+ #services .service-item{
+     font-size: 1.5rem;
+     flex-basis: 80%;
+     display: flex;
+     align-items: flex-start;
+     justify-content: center;
+     flex-direction: column;
+     padding: 30px;
+     border-radius: 10px;
+     background-image: url(https://i1.wp.com/www.estidia.eu/wp-content/uploads/2018/04/Savin-NY-Website-Background-Web.jpg?resize=768%2C432);
+     background-size: cover;
+     margin: 5px;
+     position: relative;
+ }
+
+ #services .service-item::after{
+     content:'';
+     position: absolute;
+     left:0;
+     top:0;
+     height: 100%;
+     width:100%;
+     background-color: rgb(0, 0, 0);
+     opacity: .4;
+     z-index: -1;
+ }
+
+ #services .service-item h2{
+     font-size: 2rem;
+     color: black;
+     margin-bottom: 10px;
+     text-transform: uppercase;
+ }
+
+ /* end of service section */
+
+#projects .projects {
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0;
+
+}
+
+#projects .projects-header h1{
+    margin-bottom: 50px;
+}
+
+#projects .allprojects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#projects .project-item{
+    display: flex;
+    align-items: center;
+    justify-content:  center;
+    flex-direction: column;
+    width: 80%;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+#projects .project-info {
+padding: 30px;
+flex-basis: 50%;
+height: 100%;
+display: flex;
+align-items: flex-start;
+justify-content: center;
+flex-direction: column;
+}
+
+#projects .project-info h1{
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+#projects .project-info p{
+    color: black;   
+}
+
+#projects .project-img {
+    flex-basis: 50%;
+    height: 300px;
+    overflow: hidden;
+
+}
+
+#contact .contact{
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#contact .contact-items{
+    width: 400px;
+}
+
+#contact .contact-item{
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin:30px;
+    display: felx;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow:0px 0px 18px 0 black;
+    transition: .3s ease box-shadow;
+}
+
+#contact .contact-item:hover{
+    box-shadow: 0px 0px 5px 0 black;
+}
+
+#contact .icon {
+    width: 70px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+#contact .contact-info h1{
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+#about .about{
+    flex-direction: row;
+}
+
+#about .col-left{
+    width: 600px;
+    height: 400px;
+    padding-left: 60px ;
+}
+
+#about .about .col-left .about-img::after{
+    left: -45px;
+    top: 35px;
+    height:98%;
+    width: 98%;
+    border: 10px solid crimson;
+}
+
+#about .col-right{
+    text-align: left;
+    padding: 30px;
+}
+
+#about .col-right h1{
+    text-align: left;
+}
+
+#contact .contact{
+    flex-direction: row;
+    padding: 100px 0;
+    align-items: center;
+    justify-content: center;
+    min-width: 20vh;
+    
+}
+
+#contact .contact-items{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    padding: 20px;
+    margin: 0;
+}
+
+#contact .contact-item {
+    margin: 20px;
+    flex-direction: row;
+
+}
+
+#contact .contact-item .icon {
+    height: 80px;
+    width: 80px;
+}
+
+#contact .contact-item .icon img{
+    object-fit: contain;
+}
+
+
+
+
+
+
+/* keyframes */
+@keyframes animation_box {
+    50% {
+        width: 100%;
+        left: 0;
+    }
+
+    100% {
+        width:0;
+        left:100%
+    }
+}
+
+@keyframes text-animation {
+    100%{
+        color:white;
+
+    }
+    
+}
